@@ -1,0 +1,7 @@
+checkpoints.zip
+checkpoints/*
+._*
+data/.DS_Store
+*.pyc
+.history
+data/*
