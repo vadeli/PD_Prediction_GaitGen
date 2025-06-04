@@ -1,6 +1,6 @@
 # PD_Prediction_GaitGen
 
-Unzip everything in this link () to root of the project. 
+Unzip everything in this link (https://drive.google.com/drive/folders/11z8bNvfcLdyZucHwIZNS-6o9gYFGkBzG?usp=sharing) to root of the project. 
 
 The root directory structure should look:
 ```
