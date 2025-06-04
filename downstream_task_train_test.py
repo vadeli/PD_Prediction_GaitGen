@@ -117,6 +117,9 @@ def evaluate_classifier(classifier, data_loader, eval_wrapper, criterion='', dev
 
 # python downstream_task_train_test.py --model checkpoints/classifier_pdgam_synthetic.pth --exp_dataname pdgam_synthetic
 # python downstream_task_train_test.py --model checkpoints/classifier_pdgam.pth --exp_dataname pdgam
+
+# python downstream_task_train_test.py --exp_dataname pdgam_synthetic --numepoch 4000 --lr 0.00001
+# python downstream_task_train_test.py --exp_dataname pdgam --numepoch 1500 --lr 0.0001
 def arg_parse():
     parser = argparse.ArgumentParser(description='Downstream Task')
     parser.add_argument("--dataset_name", default='pdgam', help="datasets e.g., ['pdgam', 'gaitgen', 'tri', 'tri_pd']")
